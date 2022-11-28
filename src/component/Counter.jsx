@@ -26,7 +26,7 @@ const Counter = ()=>{
     },[count])
     return(
         <div>
-            <h1>count value - {count}</h1>
+            <h1>count value is this -  {count}</h1>
             <button onClick={add}>+</button>
             <button onClick={sub}>-</button><br />
             {!show && <span>It connot be DECREASE </span>}
